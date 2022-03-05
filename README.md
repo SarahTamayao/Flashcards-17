@@ -1,6 +1,6 @@
 # Flashcard 
 
-## Lab 1
+## Lab 2
 
 ### App Description
 Build a flashcard app that allows you to toggle between question and answer.
