@@ -24,6 +24,23 @@ class ViewController: UIViewController {
             frontLabel.isHidden = true
         }
         }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // We know the destination of the segue is the Navigation Controller
+        let navigationController = segue.destination as! UINavigationController
+        
+        // we know the Navigation Controller only contains a Creation View Controller
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        creationController.flashcardsController = self
     }
+    
+    // update the flashcard each time a new one is added
+    func updateFlashcard(question: String, answer: String) {
+        frontLabel.text = question
+        backLabel.text = answer
+    
+    }
+    
+}
     
 

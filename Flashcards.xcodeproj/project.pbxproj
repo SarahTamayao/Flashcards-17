@@ -16,6 +16,7 @@
 		B640BFBB27D34FE60050E337 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640BFBA27D34FE60050E337 /* FlashcardsTests.swift */; };
 		B640BFC527D34FE60050E337 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640BFC427D34FE60050E337 /* FlashcardsUITests.swift */; };
 		B640BFC727D34FE60050E337 /* FlashcardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640BFC627D34FE60050E337 /* FlashcardsUITestsLaunchTests.swift */; };
+		B6D25DD227DD281D00A4E027 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D25DD127DD281D00A4E027 /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B640BFC027D34FE60050E337 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B640BFC427D34FE60050E337 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		B640BFC627D34FE60050E337 /* FlashcardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6D25DD127DD281D00A4E027 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B640BFA527D34FE20050E337 /* SceneDelegate.swift */,
 				B640BFA727D34FE20050E337 /* ViewController.swift */,
 				B640BFA927D34FE20050E337 /* Main.storyboard */,
+				B6D25DD127DD281D00A4E027 /* CreationViewController.swift */,
 				B640BFAC27D34FE60050E337 /* Assets.xcassets */,
 				B640BFAE27D34FE60050E337 /* LaunchScreen.storyboard */,
 				B640BFB127D34FE60050E337 /* Info.plist */,
@@ -261,6 +264,7 @@
 				B640BFA827D34FE20050E337 /* ViewController.swift in Sources */,
 				B640BFA427D34FE20050E337 /* AppDelegate.swift in Sources */,
 				B640BFA627D34FE20050E337 /* SceneDelegate.swift in Sources */,
+				B6D25DD227DD281D00A4E027 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
