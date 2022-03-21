@@ -6,8 +6,6 @@
 Create a flashcard app that can toggle between hidden labels and add new flashcards to display to user.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
 <img src="https://user-images.githubusercontent.com/66144804/159202956-22026406-9da6-4981-a7ae-3f98595cba87.gif" width=200><br>
 
 ## Required
@@ -27,8 +25,6 @@ Create a flashcard app that can toggle between hidden labels and add new flashca
 Create a flashcard app that can toggle between hidden labels.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
 <img src="https://user-images.githubusercontent.com/66144804/156876876-21880716-9408-460e-9f14-ea6c713fa5ca.gif" width=200><br>
 
 ## Required
