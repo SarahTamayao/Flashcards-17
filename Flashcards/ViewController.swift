@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Flashcards
-//
-//  Created by Rachel Pham on 3/4/22.
-//
-
 import UIKit
 
 // creating one thing that represents the entire Flashcard
@@ -19,7 +12,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var backLabel: UILabel!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var prevButton: UIButton!
-    
     
     // create an array to store flashcards
     var flashcards = [Flashcard]()
@@ -63,7 +55,6 @@ class ViewController: UIViewController {
         updateNextPrevButtons()
     }
     
-    
     @IBAction func didTapOnPrev(_ sender: Any) {
         // decrement current index
         currentIndex = currentIndex - 1
@@ -74,25 +65,6 @@ class ViewController: UIViewController {
         //update buttons
         updateNextPrevButtons()
     }
-    
-//    @IBAction func didTapOnDelete(_ sender: Any) {
-//        // show confirmation
-//        let alert = UIAlertController(title: "Delete flashcard", message: "Are you sure you want to delete this?", preferredStyle: .actionSheet)
-//        
-//        let deleteAction = UIAlertAction(title: "Delete", style: .destructive) { action in self.deleteCurrentFlashcard()
-//        }
-//        alert.addAction(deleteAction)
-//        
-//        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
-//        alert.addAction(cancelAction)
-//    
-//        }
-//        
-//    
-//    func deleteCurrentFlashcard() {
-//        
-//    }
-    
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -107,7 +79,7 @@ class ViewController: UIViewController {
     
     // update the flashcard each time a new one is added
     func updateFlashcard(question: String, answer: String) {
-        let flashcard = Flashcard(question: question, answer: question)
+        let flashcard = Flashcard(question: question, answer: answer)
         
         // add flashcards to flashcard array
         flashcards.append(flashcard)
@@ -148,7 +120,7 @@ class ViewController: UIViewController {
     
     func updateLabels() {
         // get current flashcard
-        let currentFlashcard = flashcards[currentIndex]
+        let currentFlashcard = flashcards[currentIndex] as! Flashcard
         
         // update labels
         frontLabel.text = currentFlashcard.question
@@ -180,5 +152,3 @@ class ViewController: UIViewController {
         
     }
 }
-    
-
