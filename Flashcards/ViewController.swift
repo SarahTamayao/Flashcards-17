@@ -120,7 +120,9 @@ class ViewController: UIViewController {
     
     func updateLabels() {
         // get current flashcard
-        let currentFlashcard = flashcards[currentIndex] as! Flashcard
+        let currentFlashcard = flashcards[currentIndex]
+        
+        print(currentFlashcard)
         
         // update labels
         frontLabel.text = currentFlashcard.question
@@ -131,6 +133,7 @@ class ViewController: UIViewController {
         // from flashcard array to disctionary array
         let dictionaryArray = flashcards.map{ (card) -> [String: String] in return ["question": card.question, "answer": card.answer]
         }
+//        dictionaryArray = []
         
         // save array on disk using UserDefaults
         UserDefaults.standard.set(dictionaryArray, forKey: "flashcards")
