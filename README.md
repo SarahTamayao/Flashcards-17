@@ -1,5 +1,22 @@
 ## Flashcards
 
+## Lab 3
+
+### App Description
+Flashcard app that allows you to save cards created previously and go through the deck.
+
+### App Walk-though
+<img src="https://user-images.githubusercontent.com/66144804/159625537-d7057240-f89b-42bb-a07b-c8a31474ff72.gif" width=200><br>
+
+## Required
+- [X] User can browse through multiple flashcards
+- [X] User can re-open the app and see previously created flashcards
+- [X] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [ ] User can store multiple choice questions
+
 ## Lab 2
 
 ### App Description
