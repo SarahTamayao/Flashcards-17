@@ -4,8 +4,8 @@
 Create a flashcard app that can toggle between hidden labels and add new flashcards to display to user.
 
 ### App Walk-though
-<img src="https://user-images.githubusercontent.com/66144804/159202956-22026406-9da6-4981-a7ae-3f98595cba87.gif" width=200><br>
-<img src="https://user-images.githubusercontent.com/66144804/159338287-07cd47d7-398d-4f34-a972-0cf7d70dfdaf.gif" width=200><br>
+<img src="https://user-images.githubusercontent.com/66144804/159202956-22026406-9da67.gif" width=200><br>
+<img src="https://user-images.githubusercontent.com/66144804/159338287-07cd47d7-398d-0cf7d70dfdaf.gif" width=200><br>
 
 ## Required
 - [X] User can open the creation screen
